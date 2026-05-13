@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-learning-manager"
+version = "0.1.0"
+description = "Utilities for organizing and browsing Python learning code."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Python Learner" }
+]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

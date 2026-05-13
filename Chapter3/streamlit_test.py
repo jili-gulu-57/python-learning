@@ -1,0 +1,11 @@
+import streamlit as st
+
+st.title("一级标题")
+st.header("二级标题")
+st.subheader("三级标题")
+
+#添加视频
+st.image("resources/图片.png")
+
+#添加视频
+st.video("resources/视频.mp4")
